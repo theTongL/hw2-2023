@@ -2,9 +2,7 @@ body {
     font-family: Arial, Verdana;
     background-color: #000000;
     color: #ffffff;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px 20px 0px; 
 }
 
 h1 {
@@ -27,8 +25,7 @@ p {
 img {
     width: 250px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 0px auto;
     border: 10px dashed #ffffff;
 }
 
@@ -40,14 +37,14 @@ div {
 
 .introduction {
     border-radius: 15px;
-    margin-top: 15px;
+    margin: 15px 0px 0px;
     line-height: 2;
 }
 
 .red {
     background-color: #FF0000;
     text-align: right;
-    margin-left: 50px;
+    margin: 0px 0px 0px 50px;
     border-style: none;
     border-bottom: 2px solid white;
     border-left: 5px solid white;
@@ -56,7 +53,7 @@ div {
 .blue {
     background-color: #0000ff;
     text-align: left;
-    margin-right: 50px;
+    margin: 0px 50px 0px 0px;
     border-style: none;
     border-top: 2px solid white;
     border-right: 5px solid white;
@@ -70,7 +67,7 @@ div {
 .yellow {
     background-color: #FFFF00;
     text-align: right;
-    margin-left: 50px;
+    margin: 0px 0px 0px 50px;
     border-style: none;
     border-bottom: 2px solid white;
     border-left: 5px solid white;
@@ -83,7 +80,7 @@ div {
 .green {
     background-color: #008500;
     text-align: left;
-    margin-right: 50px;
+    margin: 0px 50px 0px 0px;
     border-style: none;
     border-top: 2px solid white;
     border-right: 5px solid white;
@@ -98,7 +95,6 @@ footer {
 footer p {
     font-size: 20px;
     text-align: right;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
+    padding-left: 0px;
 }
